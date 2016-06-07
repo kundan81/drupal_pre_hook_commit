@@ -4,6 +4,19 @@
 
 <h4> Checking the installed <a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP CodeSniffer (phpcs)</a> and PHP 		Code <a href="https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically">Beautifier and Fixer 		(phpcbf)</a> program.</h4>
 	$ ll ~/.composer/vendor/bin/
+		total 8
+		drwxrwxr-x  2 neeraj neeraj 4096 Jun  3 14:45 ./
+		drwxrwxr-x 13 neeraj neeraj 4096 Jun  6 15:45 ../
+		lrwxrwxrwx  1 neeraj neeraj   20 May 11 15:40 drush -> ../drush/drush/drush*
+		lrwxrwxrwx  1 neeraj neeraj   24 May 11 15:40 drush.bat -> ../drush/drush/drush.bat*
+		lrwxrwxrwx  1 neeraj neeraj   32 May 11 15:40 drush.complete.sh -> ../drush/drush/drush.complete.sh*
+		lrwxrwxrwx  1 neeraj neeraj   29 May 11 15:40 drush.launcher -> ../drush/drush/drush.launcher*
+		lrwxrwxrwx  1 neeraj neeraj   24 May 11 15:40 drush.php -> ../drush/drush/drush.php*
+		lrwxrwxrwx  1 neeraj neeraj   43 Jun  3 14:45 phpcbf -> ../squizlabs/php_codesniffer/scripts/phpcbf*
+		lrwxrwxrwx  1 neeraj neeraj   42 Jun  3 14:45 phpcs -> ../squizlabs/php_codesniffer/scripts/phpcs*
+		lrwxrwxrwx  1 neeraj neeraj   33 May 11 15:40 php-parse -> ../nikic/php-parser/bin/php-parse*
+		lrwxrwxrwx  1 neeraj neeraj   22 May 11 15:40 psysh -> ../psy/psysh/bin/psysh*
+
 
 <h4>Install the Coder module using Composer.</h4>
 	$ composer global require drupal/coder
