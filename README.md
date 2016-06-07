@@ -22,7 +22,7 @@
 	$ composer global require drupal/coder
 
 <h4>However, both programs are not within Bash's program search path. Hence, we have to add it manually.</h4>
-	To make it permanent, just put the above line into ~/.bashrc or ~/.profile file.
+	To make it permanent, just put this line into ~/.bashrc or ~/.profile file.
 		$ export PATH=$PATH:$HOME/.composer/vendor/bin
 
 <h4>To verify our path has been set up correctly.</h4>
