@@ -3,7 +3,7 @@
 <h4> PHP_CodeSniffer is a set of two PHP scripts. the main phpcs script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second phpcbf script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.</h4>
 
 <h4> Checking the installed <a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP CodeSniffer (phpcs)</a> and PHP 		Code <a href="https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically">Beautifier and Fixer 		(phpcbf)</a> program.</h4>
-	ll ~/.composer/vendor/bin/
+	$ ll ~/.composer/vendor/bin/
 
 <h4>Install the Coder module using Composer.</h4>
 	$ composer global require drupal/coder
