@@ -1,8 +1,8 @@
 # drupal_pre_hook_commit
 
-# PHP_CodeSniffer is a set of two PHP scripts. the main phpcs script that tokenizes PHP, JavaScript and CSS files to 		detect violations of a defined coding standard, and a second phpcbf script to automatically correct coding standard 	violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.
+<h3> PHP_CodeSniffer is a set of two PHP scripts. the main phpcs script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second phpcbf script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.</h3>
 
-##  Checking the installed <a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP CodeSniffer (phpcs)</a> and PHP 		Code <a href="https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically">Beautifier and Fixer 		(phpcbf)</a> program.
+<h>3 Checking the installed <a href="https://github.com/squizlabs/PHP_CodeSniffer">PHP CodeSniffer (phpcs)</a> and PHP 		Code <a href="https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically">Beautifier and Fixer 		(phpcbf)</a> program.</h3>
 	ll ~/.composer/vendor/bin/
 
 ## Install the Coder module using Composer.
