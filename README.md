@@ -1,4 +1,12 @@
 # drupal_pre_hook_commit
+<h4>Installation instructions.</h4>
+<h4>This is covered in the actual script as well, but for the sake of making it easy to find:</h4>
+	cd [PATH TO DRUPAL GIT REPO]
+	mkdir scripts
+	curl -sL https://raw.githubusercontent.com/wiifm69/drupal-pre-commit/master/scripts/pre-commit.sh > ./scripts/pre-commit.sh
+	ln -s ../../scripts/pre-commit.sh .git/hooks/pre-commit
+
+<h3>On a side note, I normally encourage your Drupal docroot to be in a sub folder called docroot, this way the scripts directory will not be served via your web server.</h3>
 
 <h4> PHP_CodeSniffer is a set of two PHP scripts. the main phpcs script that tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard, and a second phpcbf script to automatically correct coding standard violations. PHP_CodeSniffer is an essential development tool that ensures your code remains clean and consistent.</h4>
 
