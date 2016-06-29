@@ -42,5 +42,12 @@
 		Config value "installed_paths" added successfully
 
 	$ phpcs -i
-		The installed coding standards are PSR1, PHPCS, Squiz, PSR2, Zend, PEAR, MySource, Drupal and DrupalPractice
+		The installed coding standards are PSR1, PHPCS, Squiz, PSR2, Zend, PEAR, MySource, Drupal and DrupalPractice.
+
+<h4>if you are not able to find Drupal & DrupalPractice when fire phpcs -i command then use this command</h4>
+
+	cp -R ~/.composer/vendor/drupal/coder/coder_sniffer/Drupal ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/
+	cp -R ~/.composer/vendor/drupal/coder/coder_sniffer/DrupalPractice ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/
+
+
 
